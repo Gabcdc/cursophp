@@ -13,11 +13,9 @@
 
     <main>
         <?php 
-           $nome = $_REQUEST["nome"] ?? "Você precisa digitar seu nome!!";
-           $sobrenome = $_REQUEST["sobrenome"] ?? "Você precisa digitar seu sobrenone!!";
-
-           echo "O seu nome é $nome e seu sobrenome é $sobrenome"; 
-           
+           $nome = $_REQUEST["nome"];
+           $sobrenome = $_REQUEST["sobrenome"];
+             echo "O seu nome é $nome e seu sobrenome é $sobrenome";
         ?>
         <p><a href="javascript:history.go(-1)">Voltar para a pagina</a></p>
     </main>
